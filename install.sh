@@ -28,12 +28,10 @@ elif [[ `uname` == "Darwin" ]]; then
   pip install --upgrade elpy flake8 rope jedi ipython pyflakes
 fi
 
-
-EMACSINIT="~/.emacs"
-if [ -L "$EMACSINIT" ]
-then
-  echo "$EMACSINIT found"
+EMACSINIT="$HOME/.emacs"
+if [ -L "$EMACSINIT" ]; then
+  echo "$EMACSINIT found... not creating symlink"
 else
   echo "creating symlink $EMACSINIT ... "
-  ln -s ~/.emacs.d/.emacs ~/.emacs
+  ln -s $HOME/.emacs.d/.emacs $EMACSINIT
 fi
