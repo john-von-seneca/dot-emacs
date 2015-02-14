@@ -29,7 +29,6 @@
 (depends-on "auto-complete-nxml")
 (depends-on "auto-complete-octave")
 (depends-on "auto-highlight-symbol")
-(depends-on "auto-pair" :git "https://github.com/capitaomorte/autopair")
 (depends-on "better-defaults")
 (depends-on "cask")
 (depends-on "clojure-snippets")
