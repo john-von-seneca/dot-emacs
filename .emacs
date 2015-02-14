@@ -46,8 +46,9 @@
  '(tex-open-quote "\""))
 
 ;; init
-(add-to-list 'load-path "~/.emacs.d/")
-(require 'init)
+;; (add-to-list 'load-path "~/.emacs.d/")
+(load "~/.emacs.d/init.el")
+;; (require 'init)
 
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
