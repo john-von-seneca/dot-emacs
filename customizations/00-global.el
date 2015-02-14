@@ -63,9 +63,9 @@
 ;; (define-key c++-mode-map (kbd "C-S-<return>") 'ac-complete-clang)
 ;; replace C-S-<return> with a key binding that you want
 
-;; ;; prelude shit
-;; (load "~/github-projects/prelude/init.el")
-;; (setq prelude-guru nil)
+;; prelude shit
+(load "~/github-projects/prelude/init.el")
+(setq prelude-guru nil)
 
 
 ;; ;; god knows what these are

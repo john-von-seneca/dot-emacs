@@ -1,6 +1,7 @@
 (source "melpa" "http://melpa.milkbox.net/packages/")
 (source gnu)
 (source marmalade)
+(source melpa)
 (source org)
 
 (depends-on "ac-R")
