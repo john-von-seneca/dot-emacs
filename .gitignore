@@ -1,0 +1,13 @@
+auto-save-list/*
+backups/*
+elpa/*
+var/*
+ac-comphist.dat
+*~
+places
+.emacs.desktop
+.smex-items
+projectile-bookmarks.eld
+srecode-map.el
+*lock
+.cask
