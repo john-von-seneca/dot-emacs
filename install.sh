@@ -24,9 +24,10 @@ cask install
 # http://docs.python-guide.org/en/latest/#getting-started
 if [[ `uname` == "linux" ]]; then
   sudo pip install --upgrade elpy flake8 rope jedi ipython pyflakes
-elif [[ `uname` == "Darwin"* ]]; then
+elif [[ `uname` == "Darwin" ]]; then
   pip install --upgrade elpy flake8 rope jedi ipython pyflakes
 fi
+
 
 EMACSINIT="~/.emacs"
 if [ -L "$EMACSINIT" ]
