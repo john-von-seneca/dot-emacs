@@ -1,3 +1,4 @@
+;;; Code:
 (global-set-key [(shift delete)] 'clipboard-kill-region)
 (global-set-key [(control insert)] 'clipboard-kill-ring-save)
 (global-set-key [(shift insert)] 'clipboard-yank)
@@ -117,6 +118,12 @@
 (global-unset-key (vector (list 'shift 'up)))
 (global-unset-key (vector (list 'shift 'down)))
 (setq shift-selection-mode t)
+;; ;;
+;; (global-unset-key (vector (list 'shift 'left)))
+;; (global-unset-key (vector (list 'shift 'right)))
+;; (global-unset-key (vector (list 'shift 'up)))
+;; (global-unset-key (vector (list 'shift 'down)))
+;; (setq shift-selection-mode t)
 
 (eval-after-load 'magit
   (progn '(global-set-key (kbd "C-x g") 'magit-status)))

@@ -13,7 +13,7 @@
  '(c-basic-offset 4)
  '(column-number-mode t)
  '(custom-safe-themes (quote ("06ef8f3079386219616608b27165efe77a11925eccae56dfe021adf6f2e263b2" "a53714de04cd4fdb92ed711ae479f6a1d7d5f093880bfd161467c3f589725453" "8aebf25556399b58091e533e455dd50a6a9cba958cc4ebb0aab175863c25b9a4" default)))
- '(global-rinari-mode t)
+ '(global-rinari-mode f)
  '(haskell-indent-spaces 4)
  '(inhibit-startup-screen t)
  '(latex-imenu-indent-string ".	")

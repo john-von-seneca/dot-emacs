@@ -28,14 +28,14 @@
 
 ;; Project management
 (require 'ack-and-a-half)
-(require 'projectile)
+;; (require 'projectile)
 
 ;; Git
-(require 'magit)
+;; (require 'magit)
 
-(require 'git-gutter-fringe+)
-(require 'rainbow-delimiters)
-(require 'smart-mode-line)
+;; (require 'git-gutter-fringe+)
+;; (require 'rainbow-delimiters)
+;; (require 'smart-mode-line)
 ;; (require 'workgroups2)
 
 ;; ;; Snippets

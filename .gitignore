@@ -11,3 +11,4 @@ projectile-bookmarks.eld
 srecode-map.el
 *lock
 .cask
+.sync
