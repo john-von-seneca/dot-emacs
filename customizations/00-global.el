@@ -64,7 +64,7 @@
 ;; replace C-S-<return> with a key binding that you want
 
 ;; prelude shit
-(load "~/github-projects/prelude/init.el")
+(load "~/git-repos/prelude/init.el")
 (setq prelude-guru nil)
 
 
