@@ -19,6 +19,12 @@ export PATH=$HOME/.cask/bin:$PATH
 cd ~/.emacs.d
 cask install
 
+if [[ ! -e ~/git-repos/prelude ]]
+then
+    echo "Cloning prelude to ~/git-repos/prelude"
+    git clone git@github.com:bbatsov/prelude.git ~/git-repos/prelude
+fi
+
 # For Python / ELPY
 # Prerequisite: Install Python as per:
 # http://docs.python-guide.org/en/latest/#getting-started
