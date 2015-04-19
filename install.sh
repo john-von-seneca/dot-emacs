@@ -30,7 +30,9 @@ fi
 
 EMACSINIT="$HOME/.emacs"
 if [ -L "$EMACSINIT" ]; then
-  echo "$EMACSINIT found... not creating symlink"
+  echo "$EMACSINIT found... backing up to ~/.emacs.d/.emacs.dot-emacs.bkp"
+  cp $EMACSINIT ~/.emacs.d/.emacs.dot.emacs.bkp
+  ln -s $HOME/.emacs.d/.emacs $EMACSINIT
 else
   echo "creating symlink $EMACSINIT ... "
   ln -s $HOME/.emacs.d/.emacs $EMACSINIT
