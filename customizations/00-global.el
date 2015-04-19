@@ -8,7 +8,7 @@
 ;; Package Manager
 ;; See ~Cask~ file for its configuration
 ;; https://github.com/cask/cask
-(require 'cask "~/github-projects/cask/cask.el")
+(require 'cask "~/.cask/cask.el")
 (cask-initialize)
 
 ;; Keeps ~Cask~ file in sync with the packages
