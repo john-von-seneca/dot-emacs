@@ -39,5 +39,5 @@
 (setq-default indicate-empty-lines +1)
 
 
-(setq global-auto-complete-mode t)
+;; (setq global-auto-complete-mode t)
 

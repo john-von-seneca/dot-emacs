@@ -68,6 +68,10 @@
 (global-set-key "\C-z" 'undo)
 (global-unset-key (kbd "s-z"))
 (global-set-key (kbd "s-z") 'undo)
+(global-unset-key (kbd "H-z"))
+(global-set-key (kbd "H-z") 'undo)
+
+
 (global-set-key [backspace] 'delete-backward-char)
 
 (global-unset-key (kbd "<end>"))
@@ -87,11 +91,14 @@
 (global-unset-key (kbd "s-."))
 (global-set-key (kbd "s-.") 'find-tag)
 
-(global-unset-key (kbd "M-s-<right>"))
-(global-set-key (kbd "M-s-<right>") 'elscreen-next)
+(global-unset-key (kbd "s-8"))
+(global-set-key (kbd "s-8") 'pop-tag-mark)
 
-(global-unset-key (kbd "M-s-<left>"))
-(global-set-key (kbd "M-s-<left>") 'elscreen-previous)
+;; (global-unset-key (kbd "M-s-<right>"))
+;; (global-set-key (kbd "M-s-<right>") 'elscreen-next)
+
+;; (global-unset-key (kbd "M-s-<left>"))
+;; (global-set-key (kbd "M-s-<left>") 'elscreen-previous)
 
 (global-unset-key (kbd "M-c"))
 (global-set-key (kbd "M-c") (lambda ()
@@ -127,3 +134,38 @@
 
 (eval-after-load 'magit
   (progn '(global-set-key (kbd "C-x g") 'magit-status)))
+
+
+(global-unset-key (kbd "s-g"))
+
+(global-unset-key (kbd "H-c"))
+(global-unset-key (kbd "H-c d"))
+(global-set-key (kbd "H-c d") 'prelude-duplicate-current-line-or-region)
+
+(global-unset-key (kbd "H-x"))
+(global-unset-key (kbd "H-x 1"))
+(global-set-key (kbd "H-x 1") 'delete-other-windows)
+(global-unset-key (kbd "H-x 2"))
+(global-set-key (kbd "H-x 2") 'split-window-below)
+(global-unset-key (kbd "H-x 3"))
+(global-set-key (kbd "H-x 3") 'split-window-right)
+(global-set-key (kbd "s-1") 'delete-other-windows)
+(global-set-key (kbd "s-2") 'split-window-below)
+(global-set-key (kbd "s-3") 'split-window-right)
+
+(global-unset-key (kbd "H-o"))
+(global-set-key (kbd "H-o") 'projectile-find-file)
+
+
+(global-unset-key (kbd "s-g"))
+(global-set-key (kbd "s-g") 'projectile-ag)
+
+
+(global-unset-key (kbd "H-F"))
+(global-set-key (kbd "H-F") 'projectile-find-file)
+
+(global-unset-key (kbd "s-g"))
+(global-unset-key (kbd "C-c g"))
+
+
+

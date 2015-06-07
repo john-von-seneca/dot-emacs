@@ -16,12 +16,12 @@
 ;; https://github.com/rdallasgray/pallet
 (require 'pallet)
 
-(require 'auto-complete-config)
-(ac-config-default)
-;; (add-to-list 'ac-dictionary-directories
-;;			 "~/.emacs.d/.cask/24.3.50.1/elpa/auto-complete-20130724.1750/dict")
-(add-to-list 'ac-modes 'enh-ruby-mode)
-(add-to-list 'ac-modes 'web-mode)
+;; (require 'auto-complete-config)
+;; (ac-config-default)
+;; ;; (add-to-list 'ac-dictionary-directories
+;; ;;			 "~/.emacs.d/.cask/24.3.50.1/elpa/auto-complete-20130724.1750/dict")
+;; (add-to-list 'ac-modes 'enh-ruby-mode)
+;; (add-to-list 'ac-modes 'web-mode)
 
 ;; flx-ido completion system, recommended by Projectile
 (require 'flx-ido)
