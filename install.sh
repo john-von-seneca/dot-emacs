@@ -26,7 +26,6 @@ if [[ ! -e ~/git-repos/prelude ]]; then
     git clone git@github.com:bbatsov/prelude.git ~/git-repos/prelude
 else
     echo "Prelude already present"
-    
 fi
 
 # For Python / ELPY

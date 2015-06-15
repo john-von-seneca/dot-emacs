@@ -6,7 +6,7 @@
 ;; (load-theme 'leuven)
 (set-cursor-color "firebrick")
 
-(set-background-color "#3F3F3F")
+;; (set-background-color "#3F3F3F")
 ;; (set-background-color "black")
 ;; (add-to-list 'default-frame-alist '(background-color . "#102372"))
 

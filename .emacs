@@ -12,7 +12,9 @@
  '(blink-cursor-mode nil)
  '(c-basic-offset 4)
  '(column-number-mode t)
- '(custom-safe-themes (quote ("06ef8f3079386219616608b27165efe77a11925eccae56dfe021adf6f2e263b2" "a53714de04cd4fdb92ed711ae479f6a1d7d5f093880bfd161467c3f589725453" "8aebf25556399b58091e533e455dd50a6a9cba958cc4ebb0aab175863c25b9a4" default)))
+ '(custom-safe-themes
+   (quote
+	("d9a09bb02e2a1c54869dfd6a1412553fe5cb2d01a94ba25ef2be4634d1ca2c79" "06ef8f3079386219616608b27165efe77a11925eccae56dfe021adf6f2e263b2" "a53714de04cd4fdb92ed711ae479f6a1d7d5f093880bfd161467c3f589725453" "8aebf25556399b58091e533e455dd50a6a9cba958cc4ebb0aab175863c25b9a4" default)))
  '(global-rinari-mode f)
  '(haskell-indent-spaces 4)
  '(inhibit-startup-screen t)
@@ -41,7 +43,15 @@
  '(rinari-major-modes (quote (ruby)))
  '(shift-select-mode t)
  '(show-paren-mode t)
- '(speedbar-frame-parameters (quote ((minibuffer) (width . 20) (border-width . 0) (menu-bar-lines . 0) (tool-bar-lines . 0) (unsplittable . t) (set-background-color "black"))))
+ '(speedbar-frame-parameters
+   (quote
+	((minibuffer)
+	 (width . 20)
+	 (border-width . 0)
+	 (menu-bar-lines . 0)
+	 (tool-bar-lines . 0)
+	 (unsplittable . t)
+	 (set-background-color "black"))))
  '(tex-close-quote "\"")
  '(tex-open-quote "\""))
 

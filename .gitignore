@@ -12,3 +12,9 @@ srecode-map.el
 *lock
 .cask
 .sync
+.sync/ID
+init.elc
+session.*
+xkcd/
+"Icon\r"
+semanticdb/

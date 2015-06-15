@@ -31,12 +31,19 @@
 (add-hook 'c-mode-hook 'helm-gtags-mode)
 (add-hook 'c-mode-hook 'function-args-mode)
 (add-hook 'c++-mode-hook 'function-args-mode)
+(add-hook 'c++-mode-hook 'helm-gtags-mode)
 (add-hook 'asm-mode-hook 'helm-gtags-mode)
 
 (define-key helm-gtags-mode-map (kbd "M-g a") 'helm-gtags-tags-in-this-function)
 (define-key helm-gtags-mode-map (kbd "C-j") 'helm-gtags-select)
+;; (global-unset-key (kbd "s-."))
 (define-key helm-gtags-mode-map (kbd "M-.") 'helm-gtags-dwim)
+(define-key helm-gtags-mode-map (kbd "s-.") 'helm-gtags-dwim)
+
+;; (global-unset-key (kbd "s-,"))
 (define-key helm-gtags-mode-map (kbd "M-,") 'helm-gtags-pop-stack)
+(define-key helm-gtags-mode-map (kbd "s-,") 'helm-gtags-pop-stack)
+
 (define-key helm-gtags-mode-map (kbd "C-c <") 'helm-gtags-previous-history)
 (define-key helm-gtags-mode-map (kbd "C-c >") 'helm-gtags-next-history)
 (global-unset-key (kbd "M-s-<left>"))
