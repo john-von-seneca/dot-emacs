@@ -40,9 +40,9 @@
 
 ;; ;; Snippets
 ;; ;; https://github.com/capitaomorte/yasnippet
-;; (require 'yasnippet)
+(require 'yasnippet)
 ;; (yas-load-directory (concat root-dir "snippets"))
-;; (yas-global-mode 1)
+(yas-global-mode 1)
 
 
 ;; (add-hook 'kill-emacs-hook 'wg-save-session)
@@ -64,7 +64,7 @@
 ;; replace C-S-<return> with a key binding that you want
 
 ;; prelude shit
-(load "~/git-repos/prelude/init.el")
+(load "~/neo-human/repos/prelude/init.el")
 (setq prelude-guru nil)
 
 

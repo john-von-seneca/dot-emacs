@@ -15,6 +15,9 @@
 
 ;; (define-key ggtags-mode-map (kbd "M-g ,") 'pop-tag-mark)
 
+;; Enable helm-gtags-mode
+(require 'helm-gtags)
+
 (setq
  helm-gtags-ignore-case t
  helm-gtags-auto-update t
@@ -24,8 +27,6 @@
  helm-gtags-suggested-key-mapping t
  )
 
-(require 'helm-gtags)
-;; Enable helm-gtags-mode
 (add-hook 'dired-mode-hook 'helm-gtags-mode)
 (add-hook 'eshell-mode-hook 'helm-gtags-mode)
 (add-hook 'c-mode-hook 'helm-gtags-mode)

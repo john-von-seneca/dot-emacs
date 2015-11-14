@@ -65,6 +65,9 @@
 (global-unset-key (kbd "s-x"))
 (global-set-key (kbd "s-x") 'kill-region)
 
+(global-unset-key (kbd "s-y"))
+(global-set-key (kbd "s-y") 'yas-insert-snippet)
+
 (global-set-key "\C-z" 'undo)
 (global-unset-key (kbd "s-z"))
 (global-set-key (kbd "s-z") 'undo)
